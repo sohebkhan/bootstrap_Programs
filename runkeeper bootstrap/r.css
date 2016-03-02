@@ -1,0 +1,173 @@
+/*Main Background Image*/
+#header-row{
+    background-image:url("header-bg.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat; 
+}
+
+
+body
+{
+font-family:Helvetica,sans-serif;
+}
+.profile
+{
+   height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:#F7F7F7;
+}
+
+*{
+    color: #555;
+    font-family: MuseoSans-500,Helvetica,sans-serif;
+}
+h1, h2, h3, h4{
+    font-weight: 600;
+}
+.title, h2 {
+    text-align: center;
+    margin: 0;
+
+    padding-top: 15px;
+    font-family: MuseoSans-700,Helvetica,sans-serif;
+    font-size: 40px;
+    color: #2DC9D7;
+}
+/* transperent navbar*/
+.transperent {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+/* button style*/
+.button {
+    
+    margin: 0px 0px 0px 5px;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+   	font-style: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white; 
+    color: #2DC9D7; 
+    border: 2px solid #2DC9D7;
+    border-radius: 25px;
+}
+.button1:hover {
+    background-color: #2DC9D7;
+    color: white;
+}
+.signup{
+    height: 50px;
+    width: 220px;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 40px;
+}
+.learn{
+    height: 50px;
+    width: 220px;
+    background: transparent; 
+    color: #2DC9D7; 
+    border: 2px solid #2DC9D7;
+    border-radius: 40px;
+}
+.learn:hover {
+    background-color: #2DC9D7;
+    color: white;
+}
+.profile
+{
+   height: 130%;
+    width: 100%;
+    background-color:#F7F7F7;
+}
+.profile1
+{
+    border-radius: 20px;
+    border: 2px solid #EEE;
+    text-align: center;
+    width: 25%;
+
+    margin: 8% 0% 0% 4%;
+
+}
+.profile2
+{
+    border-radius: 20px;
+    border: 2px solid #EEE;
+    text-align: center;
+    width: 40%;
+    margin: 10% 0% 10% 30%;
+}
+.where-to-start-module
+{
+  
+  font-family: Helvetica,sans-serif;
+  width: 100%;
+  height: auto;
+  background-color: #2DC9D7;
+}
+.stay-on-track-module
+{
+  
+  width: 100%;
+  height: auto;
+  background-color: #FFB636;
+}
+.spice-it-up-module
+{
+  width: 100%;
+  height: auto;
+  background-color: #EF5F31;
+}
+.proof-module
+{
+
+  width: 100%;
+  height: auto;
+  background-color: #8BE87C;
+}
+.features-module
+{
+
+  width: 100%;
+  height: auto;
+  background-color: #2DC9D7; 
+}
+.signup-module
+{
+  width: 100%;
+  height: auto;
+  background-color: #F7F7F7; 
+}
+.profiling
+{
+    border-radius: 20px;
+    border: 2px solid #EEE;
+    text-align: center;
+    width: 25%;
+    margin: 8% 0% 0% 4%;
+
+}
+.profile3
+{
+    border-radius: 20px;
+    border: 2px solid #EEE;
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    margin: 10% 0% 10% 30%;
+}
